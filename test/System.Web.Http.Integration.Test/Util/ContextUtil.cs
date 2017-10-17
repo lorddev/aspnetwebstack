@@ -58,7 +58,7 @@ namespace System.Web.Http
 
             if (descriptor.Configuration == null)
             {
-                descriptor.Configuration = controllerContext.Configuration;
+                descriptor.Configuration = context.Configuration;
             }
 
             if (context.ControllerDescriptor == null)
